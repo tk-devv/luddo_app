@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'select_game.dart';
+import 'modes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter luddo app',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const SelectGame(),
+      home: const Modes(),
     );
   }
 }

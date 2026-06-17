@@ -41,7 +41,7 @@ class _SelectGameState extends State<SelectGame> {
                         width: width * 0.12,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 83, 48, 181),
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(20),
                           border: Border.all(
                             width: 4,
                             color: Colors.lightBlueAccent,
@@ -57,7 +57,7 @@ class _SelectGameState extends State<SelectGame> {
                           ],
                         ),
                         child: Icon(
-                          Icons.arrow_back_rounded,
+                          Icons.undo,
                           color: Colors.lightBlueAccent,
                           size: 35,
                           fontWeight: FontWeight.bold,

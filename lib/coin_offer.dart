@@ -40,12 +40,14 @@ class _CoinOfferState extends State<CoinOffer> {
                         letterSpacing: 2,
                       ),
                     ),
+
                     SizedBox(height: height * 0.05),
+
                     Container(
                       height: height * 0.4,
                       width: width * 0.8,
                       decoration: BoxDecoration(
-                        color: const Color(0xFF1A1460),
+                        color: const Color.fromARGB(255, 44, 36, 128),
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
                           color: const Color(0xFF00D9FF),
@@ -74,19 +76,22 @@ class _CoinOfferState extends State<CoinOffer> {
                           Image(
                             image: AssetImage("images/coin_offer_drum.png"),
                           ),
+
                           Container(
                             height: height * 0.07,
                             width: width * 0.6,
                             decoration: BoxDecoration(
-                              border: Border.all(width: 4),
+                              border: Border.all(
+                                width: 4,
+                                color: const Color(0xFF00D9FF),
+                              ),
                               borderRadius: BorderRadius.circular(12),
                               gradient: LinearGradient(
                                 begin: Alignment.topCenter,
                                 end: Alignment.bottomCenter,
                                 colors: [
                                   const Color.fromARGB(255, 9, 74, 104),
-                                  Colors.lightBlueAccent,
-                                  Colors.lightBlueAccent,
+                                  Color(0xFF1A1460),
                                   const Color.fromARGB(255, 9, 74, 104),
                                 ],
                               ),
@@ -110,6 +115,7 @@ class _CoinOfferState extends State<CoinOffer> {
                   ],
                 ),
               ),
+
               Positioned(
                 top: 230,
                 left: 345,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:luddo_app/coin_offer.dart';
 
 import 'modes.dart';
 

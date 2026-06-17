@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'coin_offer.dart';
 import 'select_game.dart';
 
 void main() {

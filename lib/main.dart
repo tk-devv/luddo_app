@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:luddo_app/tournament_win_screen.dart';
+
+// Modes screen import
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter luddo app',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      title: 'Flutter Ludo App',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
+      home: const TournamentWinScreen(),
     );
   }
 }

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:luddo_app/quit_game.dart';
 import 'package:luddo_app/save_game.dart';
-import 'package:luddo_app/tournament_win_screen.dart';
 
 // Modes screen import
 
